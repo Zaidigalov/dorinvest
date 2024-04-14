@@ -11,7 +11,7 @@
 
 @font-face {
 	font-family: "arcocyrillic";
-	src: url("/fonts/arcocyrillic.woff") format('woff');
+	src: url("../fonts/arcocyrillic.woff") format('woff');
 }
 
 body{
