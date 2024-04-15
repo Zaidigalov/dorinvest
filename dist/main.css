@@ -599,6 +599,7 @@ button.swiper-pagination-bullet {
 	font-family: "arcocyrillic";
 	font-size: 40px;
 	margin-bottom: 28px;
+	letter-spacing: 3px;
 }
 
 .networks__title__hashtag{
@@ -663,6 +664,11 @@ body{
 	border: none;
 	border-radius: 6px;
 	box-shadow: inset 1px 1px 3px 1px rgba(0, 0, 0, 0.05),0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	transition: background-color 0.2s;
+}
+
+.button:hover{
+	background-color: var(--d-green);
 }
 
 .card__button{
@@ -678,6 +684,11 @@ body{
 	font-weight: 500;
 	color: #fff;
 	border-radius: 6px;
+	transition: background-color 0.2s;
+}
+
+.card__button:hover{
+	background-color: var(--d-green);
 }
 
 .title{
@@ -805,8 +816,7 @@ body{
 }
 
 .hero__place{
-	align-self: flex-end;
-	margin-bottom: 160px;
+	margin-bottom: 170px;
 	color: var(--d-green);
 	font-size: 32px;
 	line-height: 44px;
@@ -818,13 +828,15 @@ body{
 	margin-right: 183px;
 	width: 428px;
 	height: 72px;
-	margin-top: -15px;
+	/* margin-top: -15px; */
+	transform: translateY(-50%);
 	display: flex;
   justify-content: center;
   align-items: center;
 	padding-top: 5px;
 	box-sizing: border-box;
 	z-index: 1;
+	letter-spacing: 3px;
 }
 
 .hero__button__hashtag{
@@ -851,8 +863,24 @@ body{
 	margin-left: -17%;
 }
 
+.about__image {
+	position: relative;
+	z-index: -1;
+}
+
 .about__image img{
-	border-radius: 0px 6px 6px 0;
+	border-radius: 6px;
+}
+
+.about__image span{
+	position: absolute;
+	top: 40%;
+	left: 23%;
+	width: 165px;
+	line-height: 28px;
+	font-family: "nyashasans";
+	transform: rotate(-20deg);
+	color: var(--d-green);
 }
 
 .about__description__title{
@@ -922,9 +950,6 @@ body{
 }
 .participants__gallery__item-9 {
 		grid-area: item-9;
-}
-.participants__button {
-
 }
 
 /*  ================ PAST ===================== */
@@ -997,6 +1022,7 @@ body{
 .past__gallery__item  {
 	overflow: hidden;
 	position: relative;
+	border-radius: 6px;
 }
 
 .past__gallery__item:hover  {
@@ -1009,7 +1035,6 @@ body{
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-	border-radius: 6px;
 }
 
 .past__gallery__item-1 {
@@ -1035,10 +1060,6 @@ body{
 	grid-area: button;
 }
 
-.past__button {
-	
-}
-
 /*  ================ STATISTICS ===================== */
 
 .statistics{
@@ -1051,8 +1072,24 @@ body{
 	font-family: "Montserrat", sans-serif;
 }
 
+.statistics__image{
+	position: relative;
+}
+
 .statistics__image img{
-	border-radius: 6px 0 0 6px;
+	border-radius: 6px;
+}
+
+.statistics__image span{
+	position: absolute;
+	top: 20%;
+	left: 40.3%;
+	width: 165px;
+	font-size: 18px;
+	text-align: center;
+	line-height: 27px;
+	font-family: "nyashasans";
+	color: var(--d-green);
 }
 
 .statistics__description{
