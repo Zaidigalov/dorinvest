@@ -131,10 +131,10 @@ body{
 	border-radius: 6px;
 }
 
-.photo_vertical{
+.photo:nth-child(16n+1){
 	grid-row: span 2;
 }
 
-.photo_horizontal{
+.photo:nth-child(16n+10){
 	grid-column: span 2;
 }
