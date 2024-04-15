@@ -14,13 +14,13 @@
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
 
 		<link rel="stylesheet" href="./dist/main.css" />
-    <link rel="icon" href="./images/favicon.svg" type="image/x-icon" />
+    <link rel="icon" href="./images/icons/favicon.svg" type="image/x-icon" />
   </head>
 	<body>
 
 		<header class="header">
 			<div class="header__container">
-				<a href="#"><img class="header__logo" src="./images/logo.svg" alt="logo"></a>
+				<a href="#"><img class="header__logo" src="./images/icons/logo.svg" alt="logo"></a>
 				<nav class="header__navigation">
 					<ul class="navigation__list">
 						<li class="navigation__list__item navigation__list__item_active"><a href="" class="navigation__link">О выставке</a></li>
@@ -35,7 +35,7 @@
 		<main>
 			<section class="hero">
 				<span class="hero__background_span">Забери меня домой!</span>
-				<img class="hero__background" src="./images/banner-2.png" alt="">
+				<img class="hero__background" src="./images/banner-2.png" alt="" loading="lazy">
 				<div class="hero__container">
 					<div class="hero__top">
 						<div class="hero__info">
@@ -57,7 +57,8 @@
 	
 			<section class="about">
 				<div class="about__image">
-					<img src="./images/plug.jpg" alt="">
+					<img src="./images/about-img.jpg" alt="" loading="lazy">
+					<span>У тебя такие нежные ручки!</span>
 				</div>
 				<div class="about__description">
 					<h2 class="about__description__title title">О выставке</h2>
@@ -71,7 +72,7 @@
 				<h2 class="participants__title title">Участники</h2>
 				<div class="participants__gallery">
 					<div class="participants__gallery__item participants__gallery__item-1">
-						<img src="./images/plug.jpg" alt="">
+						<img src="./images/plug.jpg" alt="" loading="lazy">
 					</div>
 					<div class="participants__gallery__item participants__gallery__item-2">
 						<img src="./images/plug.jpg" alt="">
@@ -106,43 +107,61 @@
 				<div class="past__gallery">
 					<a href="" class="past__gallery__item past__gallery__item-1">
 						<div class="item__description item__description_main">
-							<p class="item__description__date item__description__date_main">9 марта</p>
-							<p class="item__description__place item__description__place_main">КЦ Зеленоград</p>
+							<div class="item__description__background"></div>
+							<div class="item__description__container">
+								<p class="item__description__date item__description__date_main">9 марта</p>
+								<p class="item__description__place item__description__place_main">КЦ Зеленоград</p>
+							</div>
 						</div>
-						<img src="./images/plug.jpg" alt="">
+						<img src="./images/plug.jpg" alt="" loading="lazy">
 					</a>
 					<a href="" class="past__gallery__item past__gallery__item-2">
 						<div class="item__description">
-							<p class="item__description__date">9 марта</p>
-							<p class="item__description__place">КЦ Зеленоград</p>
+							<div class="item__description__background"></div>
+							<div class="item__description__container">
+								<p class="item__description__date item__description__date">9 марта</p>
+								<p class="item__description__place item__description__place">КЦ Зеленоград</p>
+							</div>
 						</div>
 						<img src="./images/plug.jpg" alt="">
 					</a>
 					<a href="" class="past__gallery__item past__gallery__item-3">
 						<div class="item__description">
-							<p class="item__description__date">9 марта</p>
-							<p class="item__description__place">КЦ Зеленоград</p>
+							<div class="item__description__background"></div>
+							<div class="item__description__container">
+								<p class="item__description__date item__description__date">21 мая</p>
+								<p class="item__description__place item__description__place">ВДНХ Лекторий</p>
+							</div>
 						</div>
 						<img src="./images/plug.jpg" alt="">
 					</a>
 					<a href="" class="past__gallery__item past__gallery__item-4">
 						<div class="item__description">
-							<p class="item__description__date">19 августа</p>
-							<p class="item__description__place">МУФ</p>
+							<div class="item__description__background"></div>
+							<div class="item__description__container">
+								<p class="item__description__date item__description__date">19 августа</p>
+								<p class="item__description__place item__description__place">МУФ</p>
+							</div>
 						</div>
 						<img src="./images/plug.jpg" alt="">
 					</a>
 					<a href="" class="past__gallery__item past__gallery__item-5">
 						<div class="item__description">
-							<p class="item__description__date">9 марта</p>
-							<p class="item__description__place">КЦ Зеленоград</p>
+							<div class="item__description__background"></div>
+							<div class="item__description__container">
+								<p class="item__description__date item__description__date">21 мая</p>
+								<p class="item__description__place item__description__place">ВДНХ Лекторий</p>
+							</div>
 						</div>
 						<img src="./images/plug.jpg" alt="">
 					</a>
 					<a href="" class="past__gallery__item past__gallery__item-6">
 						<div class="item__description">
-							<p class="item__description__date">9 марта</p>
-							<p class="item__description__place">КЦ Зеленоград</p>
+							<div class="item__description__background"></div>
+							<div class="item__description__container">
+								<p class="item__description__date item__description__date">9 марта</p>
+								<p class="item__description__place item__description__place">КЦ Зеленоград</p>
+							</div>
 						</div>
 						<img src="./images/plug.jpg" alt="">
 					</a>
@@ -163,7 +182,8 @@
 					</div>
 				</div>
 				<div class="statistics__image">
-					<img src="./images/plug.jpg" alt="">
+					<img src="./images/stat-img.jpg" alt="" loading="lazy">
+					<span>Как я об этом мечтал!</span>
 				</div>
 				
 			</section>
@@ -204,14 +224,16 @@
 							<div class="swiper-slide">
 								<a href="">
 									<div class="slide__content">
+										<div class="slide__content__background"></div>
 										<div class="slide__content__text">Виды наполнителей для туалетов домашних питомцев</div>
-										<img src="./images/plug_square.jpg" alt="">
+										<img src="./images/plug_square.jpg" alt="" loading="lazy">
 									</div>
 								</a>
 							</div>
 							<div class="swiper-slide">
 								<a href="">
 									<div class="slide__content">
+										<div class="slide__content__background"></div>
 										<div class="slide__content__text">Прививки собакам и кошкам</div>
 										<img src="./images/plug.jpg" alt="">
 									</div>
@@ -220,6 +242,7 @@
 							<div class="swiper-slide">
 								<a href="">
 									<div class="slide__content">
+										<div class="slide__content__background"></div>
 										<div class="slide__content__text">Как правильно организовать кормление кошки?</div>
 										<img src="./images/plug_square.jpg" alt="">
 									</div>
@@ -228,6 +251,7 @@
 							<div class="swiper-slide">
 								<a href="">
 									<div class="slide__content">
+										<div class="slide__content__background"></div>
 										<div class="slide__content__text">Как сохранить обои целыми</div>
 										<img src="./images/plug.jpg" alt="">
 									</div>
@@ -241,7 +265,7 @@
 			</section>
 	
 			<section class="question">
-				<h2 class="question__title">Часто задаваемые вопросы</h2>
+				<h2 class="question__title title">Часто задаваемые вопросы</h2>
 	
 				<div class="accordion-container">
 					<div class="ac">
@@ -281,12 +305,12 @@
 					</div>
 				</div>
 				
-				<img class="question__decor" src="./images/accordeon-decor.svg" alt="">
+				<img class="question__decor" src="./images/icons/accordeon-decor.svg" alt="">
 			</section>
 	
 			<section class="partners">
 				<div class="partners__container">
-					<h2 class="partners__title">Партнеры выставки</h2>
+					<h2 class="partners__title title">Партнеры выставки</h2>
 				</div>
 			</section>
 		</main>
